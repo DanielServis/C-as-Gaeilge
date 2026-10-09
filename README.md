@@ -7,11 +7,12 @@ ionas go mbeidh daoine timpeall an domhain lán ablta ríomhchlarú a dhéanamh 
 
 Teanga:
 
-Focal      Cur síos\
-bris 	     Breaks out of a loop or a switch block\
-cas 	     Marks a block of code in switch statements\
-litir 	   A data type that can store a single character\
-buan 	     Defines a variable or parameter as a constant (unchangeable)\
+Focal  |  Cur síos\
+------------------\
+bris  |  Breaks out of a loop or a switch block\
+cas  |  Marks a block of code in switch statements\
+litir  |  A data type that can store a single character\
+buan  |  Defines a variable or parameter as a constant (unchangeable)\
 lean 	     Continues to the next iteration of a loop\
 bunaigh 	 Specifies the default block of code in a switch statement\
 dean 	     Used together with while to create a do/while loop\
