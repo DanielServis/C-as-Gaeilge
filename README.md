@@ -7,7 +7,7 @@ ionas go mbeidh daoine timpeall an domhain lán ablta ríomhchlarú a dhéanamh 
 
 Teanga:
 
-Focal      Cur síos
+Focal      Cur síos\
 bris 	     Breaks out of a loop or a switch block
 cas 	     Marks a block of code in switch statements
 litir 	   A data type that can store a single character
