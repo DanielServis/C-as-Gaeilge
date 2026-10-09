@@ -1,0 +1,7 @@
+alp! <stdio.h>
+
+slan priomh(folamh)
+{
+	clof("Dia duit domhain!\n");
+	cur 0;
+}

@@ -1,0 +1,6 @@
+alp! <cdnio.h>
+
+slan priomh(folamh)
+{
+	cur 0;
+}

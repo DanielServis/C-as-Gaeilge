@@ -1,0 +1,63 @@
+alp! <stdio.h>
+alp! <stdlib.h>
+
+sortson deant Nod Nod;
+
+deant Nod
+{
+	slan uimhir;
+	Nod* deas;
+	Nod* cle;
+};
+
+Nod* nod_nua(slan uimhir)
+{
+	Nod* nod = cudail(meid(Nod));
+	nod->deas = ceal;
+	nod->cle = ceal;
+	cur nod;
+}
+
+sortson deant LiostaCeangailte LiostaCeangailte;
+
+deant LiostaCeangailte
+{
+	Nod* ceann;
+	Nod* eireaball;
+};
+
+LiostaCeangailte liosta_nua()
+{
+	LiostaCeangailte liosta = {
+		liosta.ceann = ceal;
+		liosta.eireaball = ceal;
+	};
+	cur liosta;
+}
+
+folamh cur_leis(LiostaCeangailte* liosta, slan uimhir)
+{
+	Nod* nod = nod_nua(uimhir);
+	
+	ma (liosta->ceann == ceal)
+	{
+		liosta->ceann = nod;
+		liosta->eireaball = nod;
+		cur;
+	}
+
+	nod->cle = liosta->eireaball;
+	liosta->eireaball = nod;
+}
+
+slan priomh(folamh)
+{
+	clof("Dia duit!");
+
+	LiostaCeangailte liosta = liosta_nua();
+	cur_leis(&liosta, 3);
+	cur_leis(&liosta, 8);
+	cur_leis(&liosta, 2);
+	
+	cur 0;
+}
