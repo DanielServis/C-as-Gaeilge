@@ -3,6 +3,9 @@ ionas go mbeidh daoine timpeall an domhain lán ablta ríomhchlarú a dhéanamh 
 
 Úsáid:
   1. Cinntigh go bhfuil gcc íoslódáilte agat
+  2. Cruthaigh comahad i gcruth sampla.cf
+  3. Bain Úsáid as an tiomsaitheoir "cft" (./cft ionchar.cf aschur)
+  4. Rith an t-aschur i gcruth ./sampla (is gnáth comhad dénártha é ag an bpointe seo)
 
 
 Teanga:
